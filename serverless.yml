@@ -1,0 +1,41 @@
+service: first-project
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-1
+  stackName: imageUploadLambda
+        
+plugins:
+  - serverless-offline
+
+functions:
+    create:
+      handler: handler.create
+      events: 
+        - http:
+            path: blog
+            method: post
+            cors: true
+    getAll:
+      handler: handler.getAll
+      events: 
+        - http:
+            path: blogs
+            method: get
+            cors: true
+    update:
+      handler: handler.update
+      events: 
+        - http:
+            path: blog/{id}
+            method: put
+            cors: true
+    delete:
+      handler: handler.delete
+      events: 
+        - http:
+            path: blog/{id}
+            method: delete
+            cors: true
+   

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.12.3",
+    "serverless-offline": "^6.9.0"
+  }
+}
