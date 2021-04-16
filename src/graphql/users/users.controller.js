@@ -22,6 +22,4 @@ usersController
        res.status(200).json({token})
 
    })
-
-
 module.exports = usersController
