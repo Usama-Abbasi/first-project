@@ -1,1 +1,1 @@
-web: npm run offline
+web: sls offline start
