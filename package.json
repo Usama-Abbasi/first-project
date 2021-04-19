@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "offline": "serverless offline start --skipCacheInvalidation"
-  },
   "dependencies": {
     "aws-serverless-express": "^3.4.0",
     "bcrypt": "^5.0.1",
