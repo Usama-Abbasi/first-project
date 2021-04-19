@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "offline": "sls offline start --skipCacheInvalidation"
+    "offline": "serverless offline start --skipCacheInvalidation"
   },
   "dependencies": {
     "aws-serverless-express": "^3.4.0",
