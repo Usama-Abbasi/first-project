@@ -15,5 +15,8 @@
     "mongoose": "^5.12.3",
     "serverless-http": "^2.7.0",
     "serverless-offline": "^6.9.0"
+  },
+   "engines": {
+    "node": "12.16.1"
   }
 }
